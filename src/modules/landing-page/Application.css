@@ -1,0 +1,29 @@
+.sign-in-link{
+  float: right;
+  font-size: 20px;
+  padding: 32px 0px 0px 0px;
+}
+div.main-top{
+  padding: 0 150px;
+  margin-top: 100px;
+}
+.main-top img{
+  margin: 0 auto;
+  display: block;
+}
+button.create-account{
+  display: block;
+  margin: 10px auto 50px;
+  padding: 5px 10px;
+  background-color: white;
+  border: 1px solid #0074BF;
+  border-radius: 5px;
+  font-size: 24px;
+  color: #0074BF;
+  transition: all .45s cubic-bezier(.23,1,.32,1) 0ms;
+}
+button.create-account:hover{
+  color: white;
+  background-color: #0074BF;
+  border: 1px solid white;
+}

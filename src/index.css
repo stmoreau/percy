@@ -9,6 +9,33 @@
   font-family: Lyon
 }
 
+nav.navbar{
+  padding: 0 150px;
+}
+div.logo{
+  font-size: 48px;
+  float: left;
+}
+
+
+div.container{
+  width: 464px;
+}
+.main-subtitle{
+  font-size: 44px;
+  margin-top: 10px;
+}
+hr{
+  border-top: 1px solid #CCCCCC;
+}
+a{
+  color: #0074BF;
+  transition: all .45s cubic-bezier(.23,1,.32,1) 0ms;
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+}
 a.active{
   font-size: 18px;
 }

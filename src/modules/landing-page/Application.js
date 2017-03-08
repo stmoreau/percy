@@ -1,20 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './Application.css';
-import NavLink from './../menu/NavLink';
+import TopMenu from './TopMenu';
+import Hero from './Hero';
 
 class App extends Component {
-
-  handleClick(){
-    alert('yo');
-  }
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <NavLink to="/schedule">Sign in</NavLink>
+        <TopMenu />
+        <div className="main-top">
+          <Hero />
         </div>
-        <h1>Your personal assistant.</h1>
+        <hr />
       </div>
     );
   }
