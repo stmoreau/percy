@@ -6,7 +6,7 @@ class Menu extends Component {
   render() {
     return (
       <div>
-        <ul role="nav">
+        <ul>
           <li><NavLink to="/schedule" onlyActiveOnIndex>Schedule</NavLink></li>
           <li><NavLink to="/voicemails">Voicemails</NavLink></li>
           <li><NavLink to="/favorites">Favorites</NavLink></li>

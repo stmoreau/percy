@@ -12,10 +12,9 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome</h2>
           <NavLink to="/schedule">Sign in</NavLink>
         </div>
+        <h1>Your personal assistant.</h1>
       </div>
     );
   }
