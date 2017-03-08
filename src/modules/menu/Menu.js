@@ -11,6 +11,7 @@ class Menu extends Component {
           <li><NavLink to="/voicemails">Voicemails</NavLink></li>
           <li><NavLink to="/favorites">Favorites</NavLink></li>
           <li><NavLink to="/settings">Settings</NavLink></li>
+          <li><NavLink to="/">Logout</NavLink></li>
         </ul>
       </div>
     );

@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import Menu from './Menu';
+import Menu from './../menu/Menu';
 
-class Voicemails extends Component {
+class Favorites extends Component {
 
   render() {
     return (
       <div className="test">
-        Voicemails
+        Favorites
         <Menu />
       </div>
     );
   }
 }
 
-export default Voicemails;
+export default Favorites;

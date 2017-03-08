@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import Menu from './Menu';
+import Menu from './../menu/Menu';
 
-class Schedule extends Component {
+class Settings extends Component {
 
   render() {
     return (
       <div className="test">
-        Schedule
+        Settings
         <Menu />
       </div>
     );
   }
 }
 
-export default Schedule;
+export default Settings;
