@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Button } from 'react-bootstrap';
 import logo from './logo.svg';
-import './App.css';
+import './Application.css';
+import NavLink from './NavLink';
 
 class App extends Component {
 
@@ -13,12 +13,9 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Welcome</h2>
+          <NavLink to="/schedule">Schedule</NavLink>
         </div>
-        <p onClick={() => this.handleClick()} className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Button onClick={() => this.handleClick()}>Hello Button</Button>
       </div>
     );
   }
