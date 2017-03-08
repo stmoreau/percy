@@ -10,6 +10,7 @@ The design and front-end of this project was built by me during a hackathon and 
 ## Available commands
 - `yarn test`
 - `yarn test -- --coverage`
+- `yarn build`
 
 ### Desired result
 Landing page
