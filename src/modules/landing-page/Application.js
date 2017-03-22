@@ -15,7 +15,6 @@ class App extends Component {
         <Items type="calendar"/>
         <Items type="call"/>
         <Items type="mobile"/>
-        <hr />
         <Footer />
       </div>
     );

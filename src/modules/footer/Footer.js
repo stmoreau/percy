@@ -4,6 +4,7 @@ class Footer extends Component {
   render() {
     return (
       <div>
+        <hr />
         This is my footer
       </div>
     );
