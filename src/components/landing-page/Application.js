@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Application.css';
 import TopMenu from './TopMenu';
 import Hero from './Hero';
-import Items from './Items';
+import Item from './Item';
 import Footer from './../footer/Footer';
 
 class App extends Component {
@@ -12,9 +12,9 @@ class App extends Component {
         <TopMenu />
         <Hero />
         <hr />
-        <Items type="calendar"/>
-        <Items type="call"/>
-        <Items type="mobile"/>
+        <Item type="calendar"/>
+        <Item type="call"/>
+        <Item type="mobile"/>
         <Footer />
       </div>
     );

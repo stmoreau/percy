@@ -1,0 +1,13 @@
+img.item-image{
+  width: 20%;
+}
+
+div.container h2{
+  font-size: 24px;
+  text-align: center;
+}
+
+div.container p{
+  font-size: 22px;
+  text-align: justify;
+}
