@@ -10,7 +10,6 @@ class Item extends Component {
   call = {image : MobileIcon, header:"What happens if someone tries to call you?", text:"In this case with this application you’ll be able to set a default message that the caller will hear and also will be given the opportunity to leave a voicemail."};
   mobile = {image : CallIcon, header:"Find out what messages people have left.", text:"On an incoming voicemail you will automatically receive a message (SMS) on your phone with the exact message the person left. Or you can disable this feature and hear/download the voicemail from Percy’s dashboard."};
 
-
   itemPicker(){
     if (this.props.type === "calendar"){
       return this.calendar

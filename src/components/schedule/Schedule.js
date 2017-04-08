@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Menu from './../menu/Menu';
+import Footer from './../footer/Footer';
 
 class Schedule extends Component {
 
@@ -8,6 +9,7 @@ class Schedule extends Component {
       <div className="test">
         Schedule
         <Menu />
+        <Footer />
       </div>
     );
   }
