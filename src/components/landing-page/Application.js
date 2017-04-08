@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <TopMenu />
+        <TopMenu loggedIn={false}/>
         <Hero />
         <hr />
         <Item type="calendar"/>
