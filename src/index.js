@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory } from 'react-router'
-import Application from './modules/landing-page/Application';
-import Schedule from './modules/schedule/Schedule';
-import Voicemails from './modules/voicemails/Voicemails';
-import Favorites from './modules/favorites/Favorites';
-import Settings from './modules/settings/Settings';
+import Application from './components/landing-page/Application';
+import Schedule from './components/schedule/Schedule';
+import Voicemails from './components/voicemails/Voicemails';
+import Favorites from './components/favorites/Favorites';
+import Settings from './components/settings/Settings';
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 
