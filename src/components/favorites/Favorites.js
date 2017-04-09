@@ -8,8 +8,12 @@ class Favorites extends Component {
     return (
       <div className="test">
         <TopMenu loggedIn={true}/>
-        Favorites
-        <Menu />
+        <div className="body-container">
+          <Menu />
+          <div className="body-content">
+            this is my content
+          </div>
+        </div>
       </div>
     );
   }

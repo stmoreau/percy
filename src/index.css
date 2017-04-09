@@ -4,11 +4,9 @@
   font-weight: 300;
   src: url('./fonts/lyon-regular.ttf');
 }
-
 *{
   font-family: Lyon
 }
-
 nav.navbar{
   padding: 0 150px;
 }
@@ -17,8 +15,6 @@ div.logo{
   float: left;
   width: 20%;
 }
-
-
 div.container{
   width: 464px;
 }
@@ -39,4 +35,11 @@ a:hover{
 }
 a.active{
   font-size: 18px;
+}
+.body-container{
+  padding: 0 150px;
+}
+.body-content{
+  width: 80%;
+  float: left;
 }

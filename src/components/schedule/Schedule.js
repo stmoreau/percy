@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Menu from './../menu/Menu';
 import TopMenu from './../landing-page/TopMenu.js';
+import './Schedule.css'
 
 class Schedule extends Component {
 
@@ -8,8 +9,12 @@ class Schedule extends Component {
     return (
       <div className="test">
         <TopMenu loggedIn={true}/>
-        Schedule
-        <Menu />
+        <div className="body-container">
+          <Menu />
+          <div className="body-content">
+            this is my content
+          </div>
+        </div>
       </div>
     );
   }

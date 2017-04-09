@@ -8,8 +8,12 @@ class Settings extends Component {
     return (
       <div className="test">
         <TopMenu loggedIn={true}/>
-        Settings
-        <Menu />
+        <div className="body-container">
+          <Menu />
+          <div className="body-content">
+            this is my content
+          </div>
+        </div>
       </div>
     );
   }
