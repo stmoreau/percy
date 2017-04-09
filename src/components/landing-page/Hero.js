@@ -8,7 +8,7 @@ class Hero extends Component {
       <div className="container">
         <img src={landingIcon} alt="landing-icon"/>
         <div className="main-subtitle">Your personal assistant.</div>
-        <NavLink to="/schedule"><button className="create-account">Create two accounts</button></NavLink>
+        <NavLink to="/schedule"><button className="create-account">Create an account</button></NavLink>
       </div>
     );
   }
