@@ -43,3 +43,20 @@ a.active{
   width: 80%;
   float: left;
 }
+
+.body-content h4{
+  font-size: 22px;
+  margin-top: 3px;
+}
+
+.body-content table{
+  width: 100%;
+  margin-top: 20px;
+}
+.body-content table td{
+  font-size: 18px;
+  width: 20%;
+  border: 1px solid #CCCCCC;
+  text-align: center;
+  padding: 10px;
+}
