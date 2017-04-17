@@ -11,7 +11,7 @@ class Settings extends Component {
         <div className="body-container">
           <Menu />
           <div className="body-content">
-            this is my content
+            Settings content
           </div>
         </div>
       </div>
