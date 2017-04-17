@@ -20,7 +20,7 @@ class Schedule extends Component {
         <div className="body-container">
           <Menu />
           <div className="body-content">
-            Schedule content
+            <h4>Feel free to add your meetings / busy times on this calendar.</h4>
             <BigCalendar
               events={events}
               startAccessor='startDate'

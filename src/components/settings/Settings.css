@@ -1,0 +1,27 @@
+label, input{
+  display: block;
+  font-size: 18px;
+}
+
+input.message,
+input.number{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+input.message{
+  width: 44%;
+}
+
+input.submit{
+  padding: 5px 10px;
+  border: 1px solid #0074BF;
+  background: white;
+  color: #0074BF;
+  transition: all .45s cubic-bezier(.23,1,.32,1) 0ms;
+}
+
+input.submit:hover{
+  background: #0074BF;
+  color: white;
+}
