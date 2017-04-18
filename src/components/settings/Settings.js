@@ -19,7 +19,7 @@ class Settings extends Component {
               <label htmlFor="number">Do you want to change your phone number?</label>
               <input className="number" name="number" type="text" placeholder="+44 (0)207 123 4567" />
 
-              <input className="submit" type="submit" value="Submit" />
+              <input className="submit" type="submit" value="Update" />
             </form>
           </div>
         </div>

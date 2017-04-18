@@ -47,6 +47,7 @@ a.active{
 .body-content h4{
   font-size: 22px;
   margin-top: 3px;
+  margin-bottom: 20px;
 }
 
 .body-content table{
@@ -59,4 +60,7 @@ a.active{
   border: 1px solid #CCCCCC;
   text-align: center;
   padding: 10px;
+}
+td span{
+  cursor: pointer;
 }

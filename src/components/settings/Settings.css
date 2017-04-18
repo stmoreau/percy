@@ -5,8 +5,12 @@ label, input{
 
 input.message,
 input.number{
-  margin-top: 5px;
   margin-bottom: 20px;
+}
+
+input.message::placeholder,
+input.number::placeholder {
+  font-size: 15px;
 }
 
 input.message{
