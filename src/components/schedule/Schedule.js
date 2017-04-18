@@ -23,6 +23,7 @@ class Schedule extends Component {
             <h4>Add your meetings / busy times on this calendar.</h4>
             <BigCalendar
               events={events}
+              defaultView='day'
               startAccessor='startDate'
               endAccessor='endDate'
             />
