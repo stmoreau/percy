@@ -6,16 +6,30 @@ import Item from './Item';
 import Footer from './../footer/Footer';
 
 class App extends Component {
+  constructor(){
+      super();
+      this.state = {
+        width: window.innerWidth
+      };
+  }
   render() {
     return (
-      <div className="App">
-        <TopMenu loggedIn={false}/>
-        <Hero />
-        <hr />
-        <Item type="calendar"/>
-        <Item type="call"/>
-        <Item type="mobile"/>
-        <Footer />
+      <div>
+        {this.state.width < 1440 ? (
+          <h2>
+            This web app is not responsive.. Please use a computer to have a tour!
+          </h2>
+        ) : (
+          <div className="App">
+            <TopMenu loggedIn={false}/>
+            <Hero />
+            <hr />
+            <Item type="calendar"/>
+            <Item type="call"/>
+            <Item type="mobile"/>
+            <Footer />
+          </div>
+        )}
       </div>
     );
   }
