@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        {this.state.width < 1440 ? (
+        {this.state.width < 1000 ? (
           <h2>
             This web app is not responsive.. Please use a computer to have a tour!
           </h2>
